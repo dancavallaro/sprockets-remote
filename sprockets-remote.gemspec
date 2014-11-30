@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/dancavallaro/sprockets-remote'
 
   s.files = `git ls-files`.split("\n")
+
+  s.add_dependency "sprockets"
 end
